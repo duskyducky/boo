@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "boo",
+  "version": "1.0.0",
+  "name": "boo",
+  "description": "Gives you 1.2x jump boost. Client-side only, so it affects just you.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.boo.BooClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
